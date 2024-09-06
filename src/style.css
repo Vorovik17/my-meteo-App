@@ -6,9 +6,43 @@ body{
 .weatherApp{
     background-color: white;
     max-width: 600px;
-    /* margin: 45px,auto; */
     margin:45px auto;
     border-radius: 16px;
     box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
     padding: 30px;
+}
+a{
+    color:#757a79;
+}
+header{
+    border-bottom: 1px solid #f9f7fe;
+    padding: 0 0 30px 0;
+}
+
+
+.search-form-input{
+    background-color:#f9f7fe ;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 6px;
+    font-size: 16px;
+    width: 80%;
+
+}
+.search-form-button{
+    color: white;
+    background-color: #757a79;
+    border: none;
+    border-radius: 6px;
+    padding: 15px 30px;
+    font-size: 16px;
+    margin-left: 5px;
+}
+
+footer{
+    border-top: 1px solid #f9f7fe;
+    padding: 30px 0 0 0;
+    text-align: center;
+    color: rgba(0,0,0,0.6);
+    font-size: 14px;
 }
